@@ -1,0 +1,19 @@
+.status-tag.open {
+    background-color: #2ecc71; 
+    color: #ffffff; 
+    padding: 4px 8px;
+    border-radius: 4px;
+    display: inline-block;
+    min-width: 60px;
+    text-align: center;
+  }
+  
+  .status-tag.closed {
+    background-color: #e74c3c; 
+    color: #ffffff; 
+    padding: 4px 8px;
+    border-radius: 4px;
+    display: inline-block;
+    min-width: 60px;
+    text-align: center;
+  }
