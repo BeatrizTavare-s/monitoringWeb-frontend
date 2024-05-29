@@ -1,0 +1,17 @@
+<form (ngSubmit)="sendSite()">
+    <label for="port">Port:</label>
+    <input type="number" id="port" name="port" [(ngModel)]="port">
+    
+    <label for="url">URL:</label>
+    <input type="text" id="url" name="url" [(ngModel)]="url">
+    
+    <button type="submit">Enviar</button>
+  </form>
+
+  <div *ngIf="showSuccessMessage" class="success-message">
+    Enviado com sucesso!
+  </div>
+
+  <div *ngIf="showErrorMessage" class="error-message">
+    Ocorreu algum erro!
+  </div>
